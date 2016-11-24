@@ -2,7 +2,8 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelReadabilityServiceProvider extends ServiceProvider {
+class LaravelReadabilityServiceProvider extends ServiceProvider
+{
 
     /**
      * Indicates if loading of the provider is deferred.
@@ -27,8 +28,7 @@ class LaravelReadabilityServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        $this->app['laravel-readability'] = $this->app->share(function($app)
-        {
+        $this->app['laravel-readability'] = $this->app->share(function ($app) {
             return new LaravelReadability;
         });
     }
