@@ -3,7 +3,6 @@ A Laravel package to extract readable text from HTML.
 This package is actually a wrapper class of [feelinglucky/php-readability](https://github.com/feelinglucky/php-readability).
 
 # Installation
-
 Execute composer command.
 
     composer require dskyyy/readability-laravel
