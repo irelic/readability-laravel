@@ -6,7 +6,7 @@ This package is actually a wrapper class of [feelinglucky/php-readability](https
 
 Execute composer command.
 
-    composer require sukohi/laravel-readability:2.*
+    composer require dskyyy/readability-laravel
 
 Set the service provider in app.php
 
