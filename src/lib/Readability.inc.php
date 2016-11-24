@@ -228,7 +228,11 @@ class Readability
     public function getTitle()
     {
         $split_point = ' - ';
+
         $titleNodes = $this->DOM->getElementsByTagName('h1');
+        if ($titleNodes->length === 0) {
+            $titleNodes = $this->DOM->getElementsByTagName('title');
+        }
 
         if ($titleNodes->length && $titleNode = $titleNodes->item(0)) {
             // @see http://stackoverflow.com/questions/717328/how-to-explode-string-right-to-left
