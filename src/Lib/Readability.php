@@ -25,6 +25,7 @@ namespace Sukohi\LaravelReadability\Lib;
 use DOMDocument;
 use DOMNode;
 use Exception;
+use RuntimeException;
 
 define('READABILITY_VERSION', 0.21);
 
