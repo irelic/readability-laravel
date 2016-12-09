@@ -2,9 +2,7 @@
 
 namespace Sukohi\LaravelReadability;
 
-use Readability;
-
-require_once 'lib/Readability.inc.php';
+use Sukohi\LaravelReadability\Lib\Readability;
 
 class LaravelReadability
 {

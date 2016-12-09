@@ -1,4 +1,6 @@
-<?php namespace Sukohi\LaravelReadability\Facades;
+<?php
+
+namespace Sukohi\LaravelReadability\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
