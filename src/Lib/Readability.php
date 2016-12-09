@@ -22,6 +22,10 @@ namespace Sukohi\LaravelReadability\Lib;
  * @link   http://tuxion.nl/
  */
 
+use DOMDocument;
+use DOMNode;
+use Exception;
+
 define('READABILITY_VERSION', 0.21);
 
 class Readability
