@@ -5,7 +5,7 @@ This package is actually a wrapper class of [feelinglucky/php-readability](https
 # Installation
 Execute composer command.
 
-    composer require dskyyy/readability-laravel
+    composer require irelic/readability-laravel
 
 Set the service provider in app.php
 
@@ -18,6 +18,8 @@ and alias.
     'aliases' => [
     		'LaravelReadability' => Sukohi\LaravelReadability\Facades\LaravelReadability::class
     ]
+    
+    
 
 
 # Basic Usage
