@@ -28,7 +28,7 @@ class LaravelReadabilityServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app['laravel-readability'] = $this->app->share(function ($app) {
+        $this->app['laravel-readability'] = $this->app->singleton(function ($app) {
             return new LaravelReadability;
         });
     }
