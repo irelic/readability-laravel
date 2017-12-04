@@ -21,5 +21,15 @@
       "Sukohi\\LaravelReadability\\": "src/"
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+        "providers": [
+            "Sukohi\\LaravelReadability\\LaravelReadabilityServiceProvider"
+        ],
+        "aliases": {
+            "LaravelReadability": "Sukohi\\LaravelReadability\\Facades\\LaravelReadability"
+        }
+    }
+}
 }
